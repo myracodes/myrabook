@@ -16,7 +16,7 @@ export const SECTIONS: Section[] = [
         context: "Fondation BNP Paribas",
         period: "2017 - 2018",
         summary:
-          "Plus de 130 soirées de relations publiques en France et à l'étranger (concerts, Opéra de Paris, cirque, danse) et participation à la création du Dansathon, premier hackathon mêlant danse et technologie, à Lyon, Liège et Londres.",
+          "Plus de 130 soirées de relations publiques en France et à l'étranger (concerts, Opéra de Paris, cirque, danse) et participation à la création du [Dansathon](https://dansathon.eu/fr/community/community-2018/), premier hackathon mêlant danse et technologie, à Lyon, Liège et Londres.",
         skills: [
           "Organisation d'événements",
           "Relations publiques",

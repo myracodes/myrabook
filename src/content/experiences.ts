@@ -88,7 +88,7 @@ export const EXPERIENCES: Experience[] = [
     context: "BNP Paribas",
     period: "2015 - 2018",
     summary:
-      "Postes successifs dans 3 entités du Groupe (Achats, Juridique, Fondation). Organisation de nombreux événements, dont plus de 130 soirées de relations publiques en un an à la Fondation, et participation à la création du Dansathon, hackathon mêlant danse et technologie. Communication digitale et webmastering (intranet, site, réseaux sociaux), déploiement du réseau social interne et formation des équipes.",
+      "Postes successifs dans 3 entités du Groupe (Achats, Juridique, Fondation). Organisation de nombreux événements, dont plus de 130 soirées de relations publiques en un an à la Fondation, et participation à la création du [Dansathon](https://dansathon.eu/fr/community/community-2018/), hackathon mêlant danse et technologie. Communication digitale et webmastering (intranet, site, réseaux sociaux), déploiement du réseau social interne et formation des équipes.",
     skills: [
       "Gestion de projet",
       "Organisation d'événements",

@@ -14,11 +14,11 @@ export const PITCH: Pitch = {
     },
     {
       label: "Le secteur bancaire",
-      text: "Après 4 ans chez BNP Paribas (en agence, puis au siège, au sein des fonctions Achats, Juridique, et Fondation), j'ai acquis une ==connaissance approfondie du secteur bancaire==.",
+      text: "Après 4 ans chez BNP Paribas (en agence, puis au siège, au sein des Fonctions Support), j'ai acquis une ==connaissance approfondie du secteur bancaire==, notamment au service Juridique, particulièrement sensible.",
     },
     {
       label: "Le design UX/UI",
-      text: "Durant mes études (création d'un Design System complet) et dans mon expérience professionnelle (Cap Collectif, GOOD Vibes, Visigo, BNP Paribas), j'ai démontré une sensibilité forte pour l'expérience utilisateur et les interfaces, et sais me montrer force de proposition.",
+      text: "Au fil des expériences j'ai démontré une sensibilité forte pour le travail sur les interfaces ; je sais me montrer force de proposition pour améliorer ces dernières et les rendre plus ==fluides, attractives, et intuitives==.",
     },
     {
       label: "Le marketing",
@@ -26,19 +26,19 @@ export const PITCH: Pitch = {
     },
     {
       label: "La communication",
-      text: "Communication interne et digitale : production éditoriale, intranet, site et réseaux sociaux, déploiement d'un réseau social interne et formation des équipes.",
+      text: "Outre mes études dont c'était la spécialité, j'ai travaillé à la ==communication digitale== interne et externe en banque et dans mes projets associatifs.",
     },
     {
       label: "L'événementiel",
-      text: "Plus de 130 soirées de relations publiques en un an à la Fondation BNP Paribas et participation à la création du Dansathon, hackathon mêlant danse et technologie.",
+      text: "J'ai organisé plus d'événements que je ne peux m'en rappeler :  130 soirées de relations publiques à la Fondation BNP Paribas, des événements caritatifs (Restos du Cœur, Téléthon), des événements sportifs (la course [Odyssea](https://odyssea.info/)), des hackathons ([Dansathon](https://dansathon.eu/fr/community/community-2018/)), etc.",
     },
     {
       label: "L'esprit entrepreneurial",
-      text: "Co-fondation de l'association Pourvoir Féministe, et Calendor, une application menée seule du cadrage à la mise en production.",
+      text: "J'ai toujours aimé mener à bien des projets personnels ; j'ai fondé ou co-fondé de nombreux projets personnels (par exemple : l'association Pourvoir Féministe), Calendor (une application menée seule du cadrage à la mise en production), des projets musicaux, et d'autres initiatives.",
     },
     {
       label: "L'éducation financière",
-      text: "Un intérêt personnel pour l'éducation financière, que je nourris par mes lectures et que j'aime transmettre.",
+      text: "Un intérêt personnel pour l'éducation financière, que je nourris notamment par des lectures et que j'aime transmettre.",
     },
   ],
   conclusion:

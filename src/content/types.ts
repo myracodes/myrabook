@@ -1,6 +1,7 @@
 import type { CardVariantColor } from "../shared/Card/Card"
 
-// Dans les textes du contenu, un passage écrit ==ainsi== s'affiche surligné (voir RichText)
+// Dans les textes du contenu, un passage écrit ==ainsi== s'affiche surligné
+// et [un texte](https://…) devient un lien externe (voir RichText)
 
 export interface Experience {
   // Intitulé de la carte (poste, thème ou projet)
