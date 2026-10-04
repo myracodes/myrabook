@@ -82,6 +82,10 @@
   --radius-m: 12px;
   --radius-l: 20px;
   --radius-pill: 999px;
+
+  /* --- Polices --- */
+  /* Manuscrite, chargée depuis Google Fonts dans index.html */
+  --font-script: "Bad Script", cursive;
   --shadow-soft: 0 2px 16px rgba(105, 90, 166, 0.1);
   --shadow-lift: 0 6px 20px rgba(105, 90, 166, 0.18);
   --focus-ring: 0 0 0 3px color-mix(in srgb, var(--accent) 55%, transparent);

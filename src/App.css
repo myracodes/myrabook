@@ -33,17 +33,25 @@
   margin-bottom: 2rem;
 }
 
-@media (min-width: 640px) {
-  .app-header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
+/* Nom et métier sur une ligne, le métier passe dessous si la place manque */
+.app-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 1.25rem;
 }
 
-.app h1 {
-  display: inline-block;
+.app-job-title {
   margin: 0;
+  font-family: var(--font-script);
+  font-size: 1.9rem;
+}
+
+/* align-self : le soulignement arc-en-ciel garde la largeur du nom au lieu de s'étirer */
+.app h1 {
+  align-self: flex-start;
+  margin: 0;
+  white-space: nowrap;
   font-size: 2.4rem;
   letter-spacing: -0.02em;
 }

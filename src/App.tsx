@@ -1,8 +1,8 @@
 import { HashRouter, Route, Routes } from "react-router-dom"
 import "./App.css"
-import { AboutPage } from "./pages/AboutPage/AboutPage"
+import { JOB_TITLE, NAME } from "./content/header"
 import { HomePage } from "./pages/HomePage/HomePage"
-import { ProjectPage } from "./pages/ProjectPage/ProjectPage"
+import { SectionPage } from "./pages/SectionPage/SectionPage"
 import { Navbar } from "./shared/Navbar/Navbar"
 import { COMMIT_HASH } from "./version"
 
@@ -13,14 +13,16 @@ export default function App() {
     <HashRouter>
       <main className="app">
         <div className="app-header">
-          <h1>Myriam MIRA</h1>
+          <div className="app-title">
+            <h1>{NAME}</h1>
+            <p className="app-job-title">{JOB_TITLE}</p>
+          </div>
           <Navbar />
         </div>
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/projets/:slug" element={<ProjectPage />} />
-          <Route path="/a-propos" element={<AboutPage />} />
+          <Route path="/:slug" element={<SectionPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
 

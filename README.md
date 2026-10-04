@@ -12,8 +12,11 @@ Book public, hébergé sur GitHub Pages : https://myracodes.github.io/myrabook/
 
 Tout le contenu éditorial vit dans `src/content/` :
 
-- `projects.ts` : les projets affichés sur l'accueil (un projet = une page `#/projets/<slug>`)
-- `about.ts` : la page « À propos »
+- `pitch.ts` : la carte d'introduction, seule sur l'accueil
+- `sections.ts` : le parcours en chapitres, une page et une entrée de menu par chapitre (une sous-section par expérience ou thème, `toComplete` pour les cartes à rédiger)
+- `experiences.ts` / `sideProjects.ts` : version « profil développeuse », non affichée pour l'instant
+
+Dans les textes, un passage écrit `==ainsi==` s'affiche surligné.
 
 ## Développement
 

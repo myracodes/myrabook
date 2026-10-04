@@ -1,16 +1,19 @@
+/* Onglets de largeur égale sur toute la ligne : 8rem minimum par onglet, soit
+   les 5 onglets sur une ligne à la largeur max de l'app et 2 colonnes sur mobile */
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   gap: 0.5rem;
 }
 
+/* min-height plutôt que height : un titre long passe sur deux lignes dans son onglet */
 .navbar-link {
-  height: var(--control-h);
-  display: inline-flex;
-  flex: 1 1 auto;
+  min-height: var(--control-h);
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 1.2rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
   color: var(--ink-light);
   font-weight: 600;
   text-decoration: none;
@@ -20,12 +23,6 @@
     background 0.15s ease,
     color 0.15s ease,
     border-color 0.15s ease;
-}
-
-@media (min-width: 640px) {
-  .navbar-link {
-    flex: 0 0 auto;
-  }
 }
 
 .navbar-link:hover {

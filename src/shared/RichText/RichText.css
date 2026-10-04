@@ -1,0 +1,9 @@
+/* Effet surligneur : la couleur couvre un peu plus de la moitié basse des lettres, comme
+   un trait de feutre. --pink-orchid plutôt qu'une teinte plus claire pour bien ressortir,
+   tout en gardant --ink au-dessus du contraste AAA (≈ 7.4:1) ; --periwinkle, plus foncé,
+   passerait sous 7:1 */
+.rich-text-highlight {
+  padding: 0 0.15em;
+  color: inherit;
+  background: linear-gradient(transparent 65%, var(--pink-orchid) 65%);
+}

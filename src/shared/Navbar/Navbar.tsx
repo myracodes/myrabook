@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom"
+import { PITCH } from "../../content/pitch"
+import { SECTIONS } from "../../content/sections"
 import "./Navbar.css"
 
+// Une entrée par carte : l'accroche sur l'accueil, puis un chapitre par page
 const LINKS = [
-  { to: "/", label: "Projets" },
-  { to: "/a-propos", label: "À propos" },
+  { to: "/", label: PITCH.title },
+  ...SECTIONS.map(section => ({ to: `/${section.slug}`, label: section.title })),
 ]
 
 export function Navbar() {
