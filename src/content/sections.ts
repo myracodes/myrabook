@@ -6,21 +6,21 @@ import type { Section } from "./types"
 export const SECTIONS: Section[] = [
   {
     slug: "banque",
-    title: "La banque de l'intérieur",
+    title: "Connaissance du secteur bancaire",
     intro:
-      "BNP Paribas, 2014 - 2018 : 4 ans en banque, du réseau d'agences au siège.",
+      "BNP Paribas, 2014 - 2018 : 4 ans en banque, du réseau d'agences aux Fonctions Support.",
     variantColor: "sun",
     items: [
       {
-        title: "Événementiel d'envergure",
+        title: "Événementiel à grande échelle",
         context: "Fondation BNP Paribas",
         period: "2017 - 2018",
         summary:
-          "Plus de 130 soirées de relations publiques en France et à l'étranger (concerts, Opéra de Paris, cirque, danse) et participation à la création du [Dansathon](https://dansathon.eu/fr/community/community-2018/), premier hackathon mêlant danse et technologie, à Lyon, Liège et Londres.",
+          "J'ai organisé plus de 130 soirées de relations publiques en France et à l'étranger, et participé à la création du [Dansathon](https://dansathon.eu/fr/community/community-2018/), et participé à communiquer sur la mission de la Fondation.",
         skills: [
           "Organisation d'événements",
           "Relations publiques",
-          "Création de formats innovants",
+          "Innovation",
         ],
       },
       {
@@ -28,7 +28,7 @@ export const SECTIONS: Section[] = [
         context: "BNP Paribas LEGAL",
         period: "2016 - 2017",
         summary:
-          "Production éditoriale quotidienne, séminaires, journées d'accueil, collectes caritatives et course Odyssea, déploiement du réseau social interne.",
+          "J'ai mis en oeuvre la production éditoriale quotidienne et organisé les événements de la Fonction Juridique (séminaires, événements caritatifs, team building). J'ai également déployé le réseau social interne et formé les équipes.",
         skills: [
           "Communication interne",
           "Événementiel",
@@ -36,11 +36,11 @@ export const SECTIONS: Section[] = [
         ],
       },
       {
-        title: "Conduite du changement",
-        context: "BNP Paribas Group Procurement",
+        title: "Conduite du changement et événements",
+        context: "BNP Paribas Procurement",
         period: "2015 - 2016",
         summary:
-          "Événements de la filière Achats en France et à l'étranger, conception du réseau social interne et formation des équipes à son utilisation.",
+          "J'ai organisé tous les événements de la filière Achats en France et à l'étranger (séminaires, journées d'accueil, team buildings, etc.), conçu l'architecture et le design du réseau social interne et formé les équipes à son utilisation.",
         skills: [
           "Coordination internationale",
           "Accompagnement au changement",
@@ -48,12 +48,13 @@ export const SECTIONS: Section[] = [
         ],
       },
       {
-        title: "Expérience en agence bancaire",
+        title:
+          "Chargée d'accueil et de conseil à la clientèle en agence bancaire",
         context:
           "BNP Paribas, agences de Fourqueux, St-Nom-la-Bretèche et Le Vésinet",
         period: "2014 - 2015",
         summary:
-          "Missions successives en tant qu'auxiliaire de vacances, au contact direct de la clientèle. Missions : opérations bancaires courantes, accueil et conseil.",
+          "J'étais chargée des opérations bancaires courantes, de l'accueil et du conseil à la clientèle. Ces expériences ont été mes premiers contacts professionnels avec le secteur bancaire, et m'a permis de comprendre le fonctionnement d'une agence et les besoins des clients.",
         skills: [
           "Relation client",
           "Fonctionnement d'une agence",
@@ -64,14 +65,14 @@ export const SECTIONS: Section[] = [
   },
   {
     slug: "produits-numeriques",
-    title: "Construire des produits numériques",
+    title: "Construction de produits numériques",
     intro:
-      "2021 - aujourd'hui : du besoin utilisateur à la mise en production.",
+      "Depuis 2021 : construction de produits digitaux, du besoin à la mise en production.",
     variantColor: "sky",
     items: [
       {
-        title: "Du besoin au backlog",
-        context: "Cap Collectif",
+        title: "Gestion du backlog produit et technique",
+        context: "Cap Collectif (application grand public)",
         period: "2024 - aujourd'hui",
         summary:
           "Sur une application grand public : analyse du besoin, création des EPIC, découpage et priorisation, en coordination avec PO, QA et designer. Réduction proactive de la dette technique et réduction des coûts, le tout en mode agile.",
@@ -168,34 +169,33 @@ export const SECTIONS: Section[] = [
         title: "Éducation financière",
         context: "Engagement personnel",
         period: "",
-        summary: "Lectures, actions, transmission…",
+        summary:
+          "Intérêt personnel pour l'éducation financière, que je nourris notamment par des lectures et que j'aime transmettre autour de moi.",
         skills: ["Éducation financière", "Pédagogie"],
-        toComplete: true,
       },
       {
         title: "Jeunesse et pédagogie",
         context: "France & Canada",
         period: "Depuis 2010",
         summary:
-          "10 ans de baby-sitting, nanny dans une famille canadienne et professeure de français au Canada.",
+          "Pendant plus de 10 ans, j'ai ==travaillé au contact des enfants au quotidien== : j'ai été baby-sitter puis nanny dans une famille canadienne. J'ai également donné des cours de français au Canada. J'aime transmettre et partager mes connaissances sur les sujets qui me tiennent à coeur, et je sais m'adapter à différents publics.",
         skills: ["Pédagogie", "Relation avec les familles", "Adaptabilité"],
       },
       {
-        title: "Créer des collectifs",
+        title: "Esprit d'entreprendre",
         context: "Associations & groupes de travail",
         period: "Depuis 2010",
         summary:
-          "Co-fondation de l'association Pourvoir Féministe, coordination d'événements, organisation de collectes (Restos du Cœur, Téléthon). Groupes de travail : …",
+          "Au fil des années, j'ai entrepris divers projets, de plus ou moins grande envergure : de la co-fondation d'associations  et groupes de travail féministes à l'organisation de collectes caritatives ou d'événements sportifs, j'ai démontré une ==capacité à entreprendre et innover==.",
         skills: ["Esprit entrepreneurial", "Mobilisation", "Événementiel"],
-        toComplete: true,
       },
       {
-        title: "Course à pied",
-        context: "Odyssea & pratique personnelle",
+        title: "Pratique sportive",
+        context: "Pratique personnelle et en équipe",
         period: "",
-        summary: "Course Odyssea chez BNP Paribas LEGAL, pratique actuelle…",
+        summary:
+          "Depuis très longtemps, je pratique le sport. Mes sports de prédilection ont toujours été la ==course à pied==, le ==vélo== et la ==natation==, mais j'ai également pratiqué plusieurs sports de raquettes, le volley-ball, le ==step==, et d'autres.",
         skills: ["Persévérance", "Esprit d'équipe"],
-        toComplete: true,
       },
     ],
   },
